@@ -1,0 +1,285 @@
+/* estilos reset */
+
+body, h1, h2, h3, p, ul, li, dd, dt, dl {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+/* estilos quem sou */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body{
+    background: #1C1720;
+    color: #F2EEF7;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav-principal {
+    background: #802FD2;
+    display: flex;
+    padding: 40px 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-nav-principal {
+    display: flex;
+    gap: 50px;
+    z-index: 1;
+    align-self: center;
+}
+
+.link-nav-principal {
+    color: #F2EEF7;
+    font-weight: 500;
+}
+
+#link-contato {
+    color: #26004D;
+    z-index: 1;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo span {
+    color: #26004D;
+}
+
+.nav-lateral {
+    position: fixed;
+    margin-left: 130px;
+    bottom: 0px;
+}
+
+.links-nav-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.links-nav-lateral img {
+    filter: invert(31%) sepia(37%) saturate(413%) hue-rotate(228deg) brightness(91%) contrast(80%);
+}
+.links-nav-lateral img:hover {
+    filter: invert(27%) sepia(71%) saturate(2410%) hue-rotate(256deg) brightness(82%) contrast(103%);
+}
+
+#quem-sou {
+    padding: 40px 0px 80px 250px;
+    display: grid;
+    grid-template-columns: 450px 1fr;
+}
+
+.minha-foto {
+    position: absolute;
+    top: -140px;
+    right: -80px;
+}
+
+.titulo-principal {
+    font-size: 50px;
+    max-width: 400px;
+}
+
+.meu-nome {
+    font-size: 25px;
+}
+
+.destaque-cor {
+    color: #802FD2;
+}
+
+.desc-principal {
+    font-size: 18px;
+    max-width: 450px;
+    margin-top: 30px;
+}
+
+
+
+/* estilos experiências */
+
+#experiencias {
+    padding: 50px 250px;
+    background-color: #29232D;
+}
+
+.titulos {
+    font-size: 40px;
+}
+
+.caixa-titulos-experiencias {
+    background-color: #6116AB;
+    padding: 30px 50px;
+    margin: -50px;
+    z-index: 1;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.caixa-experiencias {
+    background-color: #1C1720;
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.lista-titulos-experiencias {
+    display: flex;
+    gap: 50px;
+}
+
+.textos-experiencias-eupresa {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.funcao {
+    color: #944DDC;
+}
+
+.rodape-experiencias {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.periodo {
+    color: #944DDC;
+    display: inline;
+}
+
+.ferramentas {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ferramenta {
+    background: #F2EEF7;
+    color: #26004D;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.ferramenta:hover {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+
+/* estilos formação */
+
+#formacao {
+    padding: 50px 250px;
+}
+
+.caixas-formacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.caixa-formacao {
+    display: flex;
+    flex-direction: column;
+    background-color: #29232D;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.tipo-formacao {
+    color: #806C95;
+    font-size: 12px;
+}
+
+.titulo-formacao {
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+.instituicao {
+    color: #806C95;
+}
+
+.caixa-formacao:hover{
+    background-color: #6116AB;
+}
+
+.caixa-formacao:hover .tipo-formacao {
+    color: #B083DE;
+}
+
+.caixa-formacao:hover .instituicao {
+    color: #B083DE;
+}
+
+.caixa-formacao:hover .periodo {
+    color: #26004D;
+}
+
+
+
+/* estilos contato */
+
+#contato {
+    padding: 50px 250px 30px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #29232D;
+    text-align: center;
+    gap: 15px;
+}
+
+.links-nav-inferior {
+    display: flex;
+    gap: 80px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+.links-nav-inferior img {
+    filter: invert(27%) sepia(71%) saturate(2410%) hue-rotate(256deg) brightness(82%) contrast(103%);
+}
+.links-nav-inferior img:hover {
+    filter: invert(27%) sepia(71%) saturate(2410%) hue-rotate(256deg) brightness(82%) contrast(103%);
+}
+
+.links-nav-inferior img {
+    height: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #806C95;
+}
